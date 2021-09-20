@@ -1,0 +1,257 @@
+@charset "ISO-8859-1";
+
+/*************************** Header ************/
+.header {
+    top:0;left: 0;right: 0;
+    position: fixed;
+    font-size: 24px;
+    background: black;   
+    z-index: 1;
+    height: 100px;  
+}
+
+.header h1 {
+    text-align: center;
+	color: white;
+}
+/***************** Login Page *************/
+.loginpage {
+    width: 260px;
+    height: 200px;
+    position: fixed;
+    top: 58%;
+    left: 48%;
+    margin-top: -100px;
+    margin-left: -100px;
+    text-align: center;
+    padding: 10px;
+}
+.loginpage a{
+
+    text-align: center;
+    color: black;
+    text-decoration: underline yellowgreen;
+    font-size: 25px; 
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-img {
+    min-height: 100vh;
+    padding-top: 12rem;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background: url(/images/healthy.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+   
+    }
+ .container {
+     width: 350px;
+     height: 300px;
+     position: fixed;
+     top: 45%;
+     left: 45%;
+     margin-top: -100px;
+     margin-left: -100px;
+     text-align: center;
+     padding: 10px;
+  }
+  input[type=text], input[type=password], input[type=number] {
+    display: inline-block;
+    border: none;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid black;
+    background: white;
+   
+  }
+ .container h3 {
+     font-size: 30px;
+  }
+ .btn {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    height: 2rem;
+    width: 4.5rem;
+    background: black;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+     
+    }
+.btn:hover{
+    color:#fff;
+    background: #333;
+     }
+
+.control-label {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+  }
+  
+hr {
+    border: 1px solid black;
+   
+    }
+
+ /************* Registration Page  ************/
+   
+.register-container input[type=text], input[type=password], input[type=number] {
+    width: 50%;
+    padding: 5px;
+    margin: 2px 0 3px 0;;
+    display: inline-block;
+    border: none;
+    background: white;
+    border: 1px solid black
+} 
+    
+     
+.register-container {
+    width: 350px;
+    height: 300px;
+    position: fixed;
+    top: 25%;
+    left: 45%;
+    margin-top: -65px;
+    margin-left: -100px;
+    text-align: center;
+    padding: 10px;
+}
+.register-container button {
+    margin-top: .5rem;
+    height: 2rem;
+    width: 4.5rem;
+    background: #333;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.register-container h3 {
+    padding-top: 20px;
+    font-size: 10px;
+ }	
+
+ /********************** BMI Page ****************/
+
+.bmi-container {
+    margin-top: -75px;	
+    margin-left: 40%;	
+    width: 300px;
+    height : 400px;
+}
+.bmi-container h3 {
+    margin: 0 0 5px 0;
+    color: black;
+    font-size: 23px;
+    text-decoration: underline yellowgreen;
+ }
+ 
+.bmi-container .btn{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    height: 2rem;
+    width: 9rem;
+    background: #333;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+          }
+
+.bmi-container input[type=text], input[type=password], input[type=number] {
+    display: inline-block;
+    border: none;
+    background: white;
+    padding: 2px;
+    margin: 2px 0 3px 0;
+    border: 1px solid black;
+           
+}
+.plans p{
+    margin-top: 1px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+     
+}
+form {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ 
+/*************** Recipe Exercise Diet Plan *************/
+ 
+* {
+    box-sizing: border-box;
+ }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 2000px;
+    border: 3px solid black;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
+.row .column .box h2 {
+    margin-top: 110px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+p{
+    font-size: 17px;
+    text-align: center;
+}
+.row h3 {
+   text-align: center;
+}
+b {
+   text-align: center;
+}
+h4 {
+   font-weight: bold;
+}
+.font {
+   font-style: normal;
+   font-size: 17px;
+}
+.box h2 {
+    background:black;
+    color:white;
+    padding:10px;
+}
+/**************** Logout Button ************/
+.logout-box a {
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: .5rem;
+    height:4.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+    color: orange;
+   
+}
+.logout-box {
+	float: right;
+	    margin-right: 40px;
+    margin-bottom: 50px;
+    margin-top: -170;
+    margin-top: -200;
+    margin-top: 25px;
+}
