@@ -21,7 +21,7 @@
                                          
                                            
                          IDE        :    o Spring Tool Suite
-                        Server      :    o Tomcat
+                        Server      :    o Apache Tomcat
                    
 
 
