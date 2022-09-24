@@ -12,7 +12,7 @@ pipeline {
         stage('BUILD'){
             steps {
                 sh 'mvn clean install -DskipTests'
-		archiveArtifacts artifacts: '**/target/*.war'    
+		archiveArtifacts artifacts: '**/target/*.jar'    
             }
           
         }
