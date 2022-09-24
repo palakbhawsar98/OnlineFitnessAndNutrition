@@ -12,6 +12,7 @@ pipeline {
         stage('BUILD'){
             steps {
                 sh 'mvn clean install -DskipTests'
+		archiveArtifacts artifacts: 'target/OnlineFitnessAndNutrition.jar'    
             }
           
         }
