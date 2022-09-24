@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>BMI Calculator</title>
+    <title>BMI Calculator for App</title>
 
  <!--css file--> 
  
